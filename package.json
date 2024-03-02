@@ -1,0 +1,30 @@
+{
+  "name": "dynamic-og",
+  "version": "1.0.1",
+  "description": "dynamically generate images on the edge",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint ./src --fix",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "eslint": "^8.57.0",
+    "eslint-config-harmony": "^3.1.9",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "next": "^14.1.1",
+    "react": "^18.2.0"
+  },
+  "prettier": "eslint-config-harmony/prettier",
+  "stylelint": {
+    "extends": "eslint-config-harmony/stylelint"
+  }
+}
