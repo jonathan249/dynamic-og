@@ -8,8 +8,11 @@
     "build": "tsc -p ."
   },
   "keywords": [],
-  "author": "",
+  "author": "jonathan249",
   "license": "ISC",
+  "repository": {
+    "url": "https://www.npmjs.com/package/dynamic-og"
+  },
   "devDependencies": {
     "@types/react": "^18.2.61",
     "eslint": "^8.57.0",
